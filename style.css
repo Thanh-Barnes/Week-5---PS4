@@ -1,5 +1,5 @@
 html {
-    font-family: SIMPLIFICA;  
+    font-family: 'Simplifica';  
 }
 
 body > img {
@@ -23,7 +23,7 @@ h1 {
     position: absolute;
     font-size: 100px;
     float: right;
-    right: -200px;
+    right: -100px;
 }
 
 h2 {
@@ -31,7 +31,7 @@ h2 {
     font-size: 70px;
     float: right;
     top: 170px;
-    right: -100px;
+    right: -20px;
 }
 
 h3 { 
@@ -39,7 +39,7 @@ h3 {
     font-size: 30px;
     float: right;
     top: 350px; 
-    right: -250px;
+    right: -120px;
     text-align: justify;
 }
 
@@ -50,7 +50,7 @@ h3 {
     color: white;
     float: right;
     top: 500px; 
-    right: 20px;
+    right: 170px;
 }
 
 #price {
@@ -60,14 +60,14 @@ h3 {
     font-weight: bold;
     float: right;
     top: 700px; 
-    right: 200px;
+    right: 250px;
 }
 
 #buyNow {
     position: absolute;
     color: white;
     float: right;
-    top: 1000px; 
+    top: 950px; 
     right: 200px;
     width: 400px;
     height: 200px;
@@ -76,7 +76,7 @@ h3 {
     position: absolute;
     color: white;
     float: right;
-    top: 1000px; 
+    top: 950px; 
     right: -50px;
     width: 400px;
     height: 200px;
