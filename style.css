@@ -1,46 +1,60 @@
 html {
-    font-family: 'Simplifica' arial;  
+    font-family: 'Simplifica', arial;  
 }
 
-body > img {
-    width: 100%;
-    position: absolute;
-}
-
+/* background image */
 body {
-    position: relative;
+    background-image: url('ps42.png');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 100%;
+} 
+
+div {
+    display: flex;
+    float: left;
+    width: 45%;
+    height: 950px;
+    visibility: hidden;
+}
+main {
+    color: white;
+    display: flex;
+    float: right;
+    width: 54%;
+    height: 950px;
+    position: relative;   
 }
 
-hgroup, #price {
-    color: white;
-    background-color: transparent;
-    position: relative;
-    top: 10px;
-    right: 400px; 
-}
+/* article {
+    display: flex;
+    float: right;
+    border: black;
+    width: 54%;
+    height: 200px;
+} */
 
 h1 {
     position: absolute;
     font-size: 100px;
     float: right;
-    right: -100px;
+    right: 250px;
 }
-
+ 
 h2 {
     position: absolute;
     font-size: 70px;
     float: right;
-    top: 170px;
-    right: -20px;
+    top: 160px;
+    right: 330px;
 }
 
 h3 { 
-    position: relative;
-    font-size: 30px;
+    position: absolute;
+    font-size: 40px;
     float: right;
-    top: 350px; 
-    right: -120px;
-    text-align: justify;
+    top: 310px; 
+    right: 140px;
 }
 
 #description {
@@ -49,8 +63,8 @@ h3 {
     position: absolute;
     color: white;
     float: right;
-    top: 500px; 
-    right: 170px;
+    top: 420px; 
+    right: 150px;
 }
 
 #price {
@@ -59,25 +73,25 @@ h3 {
     font-size: 100px;
     font-weight: bold;
     float: right;
-    top: 700px; 
-    right: 250px;
+    top: 650px; 
+    right: 150px;
 }
 
 #buyNow {
     position: absolute;
     color: white;
     float: right;
-    top: 950px; 
-    right: 200px;
+    top: 300px; 
+    right: 100px;
     width: 400px;
     height: 200px;
-}
+} 
 #add {
     position: absolute;
     color: white;
     float: right;
-    top: 950px; 
-    right: -50px;
+    top: 300px; 
+    right: -200px;
     width: 400px;
     height: 200px;
 }
